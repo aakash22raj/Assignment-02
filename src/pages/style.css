@@ -1,0 +1,253 @@
+/* .main {
+  text-align: center;
+} */
+
+.tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: #fff;
+}
+  
+  
+
+  /* PropertyCard.css */
+.property-card {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-button{
+  border-radius: 50px;
+  padding: 10px 25px;
+  /* background-color: #bdbfed; */
+  border: 1px solid #1d1888;
+  margin: 8px;
+  margin-left: 25%;
+  font-weight: bold;
+  color: #1d1888;
+  margin-bottom: 20px
+}
+.card-button:hover{
+  color: #9c97ff;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.property-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.property-details {
+  padding: 15px;
+}
+
+.property-details h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.property-details p {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.property-features {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.property-price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.property-rating {
+  font-weight: bold;
+}
+  
+  
+.property-card:hover {
+  box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+.location{
+  display: flex;
+  gap: 2px;
+  font-size: small;
+  padding-left: 16px;
+}
+.facility{
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+  font-weight: bold;
+  color: black;
+}
+
+
+
+  /* PropertyList.css */
+.property-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display 3 cards per row */
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .property-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .property-list {
+    grid-template-columns: 1fr;
+  }
+}
+  
+
+
+  /* HomePage.css */
+.home-page {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.tabs {
+  display: flex;
+  gap: 32px;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.tab {
+  cursor: pointer;
+  padding: 10px 25px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.tab.active {
+  background-color: #1d1888;
+  color: #fff;
+}
+
+.property-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.showmore {
+  background-color: #1d1888;
+  color: #fff;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-top: 45px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+.load-more-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/* PropertyPage.css */
+.property-page {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.property-image {
+    flex: 1;
+    max-width: 100%;
+}
+  
+.property-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.property-details {
+  flex: 1;
+}
+
+.property-details h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.property-details p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.property-features {
+  margin-top: 10px;
+}
+
+.property-features span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.property-features span:first-child {
+  color: #007bff;
+}
+  

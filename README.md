@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-### `You can see the repo live [SkyHouse](https://skyhouse.netlify.app/).`
+### `You can see the repo live` [SkyHouse](https://skyhouse.netlify.app/).
 
 ## Available Scripts
 

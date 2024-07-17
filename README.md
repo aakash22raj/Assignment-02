@@ -3,7 +3,7 @@
   <h1 align="center">Sky House</h1>
 
   <p align="center">
-    This project is an House Renting Website for the Real estates.
+    This project is an House Hotel Renting Website for the Real estates.
     <br />   
     <br />
     <a href="https://skyhouse.netlify.app/">You can see the Demo Live</a>

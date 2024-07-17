@@ -10,7 +10,7 @@
   </p>
 </div>
 
-## About The Project
+## Project Looks
 <img src='https://arpansaini.netlify.app/images/skyhouse.png'>
 
 

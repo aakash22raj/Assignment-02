@@ -11,7 +11,7 @@
 </div>
 
 ## Project Looks
-<img src='https://arpansaini.netlify.app/images/skyhouse.png'>
+<img src='https://github.com/aakash22raj/Assignment-02/blob/main/houserent.png'>
 
 
 ## Features

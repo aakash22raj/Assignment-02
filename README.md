@@ -16,7 +16,7 @@
 
 ## Features
 
-- Yuo can find the multiple best option of Houses for rent
+- You can find the multiple best option of Houses for rent
 - You can see all the feature of house
 - You can buy the house or take it in rent
 - Generate insightful reports and userfrendaly
